@@ -1,0 +1,15 @@
+id:
+  providerName: admin
+  apiName: SampleAPI
+  version: "1.0"
+type: HTTP
+context: /SampleAPI/1.0
+contextTemplate: /SampleAPI/{version}
+availableTiers:
+- name: Unlimited
+status: CREATED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
+enableStore: true
